@@ -1,10 +1,20 @@
-@import '../global/site.variable';
+.row {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  border-collapse: collapse;
 
-.footer {
-  &.fixed {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
+  & > * {
+    display: table-cell;
+    vertical-align: top;
   }
+}
+
+.grid {
+ display: flex;
+ justify-content: center;
+
+ > * {
+   flex: 1;
+ }
 }

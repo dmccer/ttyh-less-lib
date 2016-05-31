@@ -70,7 +70,6 @@
 @darkWhite        : #F0F0F0;
 @white            : #FFFFFF;
 
-
 /*--- Custom Colors ---*/
 @c_teal             : #17BB92;
 @c_orange           : #EEA931;
@@ -85,7 +84,6 @@
 @c_lightBlack_1     : #616E74;
 @c_grey             : #C8C8C8;
 @c_lightGrey        : #E6E6E6;
-/* darkWhite */
 
 
 /*-------------------
